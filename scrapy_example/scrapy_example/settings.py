@@ -90,8 +90,8 @@ ITEM_PIPELINES = {
 #HTTPCACHE_STORAGE = 'scrapy.extensions.httpcache.FilesystemCacheStorage'
 
 # Configure mysql connect
-MYSQL_HOST = '121.42.26.251'
-MYSQL_PORT =3306
-MYSQL_USER = 'root'
-MYSQL_PASSWORD ='111111'
-MYSQL_DB = 'scrapy'
+MYSQL_HOST = ''
+MYSQL_PORT =
+MYSQL_USER = ''
+MYSQL_PASSWORD =''
+MYSQL_DB = ''

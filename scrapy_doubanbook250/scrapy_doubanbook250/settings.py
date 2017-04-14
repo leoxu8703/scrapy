@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# Scrapy settings for scrapy_doubantop250 project
+# Scrapy settings for scrapy_doubanbook250 project
 #
 # For simplicity, this file contains only settings considered important or
 # commonly used. You can find more settings consulting the documentation:
@@ -9,14 +9,14 @@
 #     http://scrapy.readthedocs.org/en/latest/topics/downloader-middleware.html
 #     http://scrapy.readthedocs.org/en/latest/topics/spider-middleware.html
 
-BOT_NAME = 'scrapy_doubantop250'
+BOT_NAME = 'scrapy_doubanbook250'
 
-SPIDER_MODULES = ['scrapy_doubantop250.spiders']
-NEWSPIDER_MODULE = 'scrapy_doubantop250.spiders'
+SPIDER_MODULES = ['scrapy_doubanbook250.spiders']
+NEWSPIDER_MODULE = 'scrapy_doubanbook250.spiders'
 
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
-#USER_AGENT = 'scrapy_doubantop250 (+http://www.yourdomain.com)'
+#USER_AGENT = 'scrapy_doubanbook250 (+http://www.yourdomain.com)'
 USER_AGENT = 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36'
 
 
@@ -49,13 +49,13 @@ ROBOTSTXT_OBEY = True
 # Enable or disable spider middlewares
 # See http://scrapy.readthedocs.org/en/latest/topics/spider-middleware.html
 #SPIDER_MIDDLEWARES = {
-#    'scrapy_doubantop250.middlewares.ScrapyDoubantop250SpiderMiddleware': 543,
+#    'scrapy_doubanbook250.middlewares.ScrapyDoubanbook250SpiderMiddleware': 543,
 #}
 
 # Enable or disable downloader middlewares
 # See http://scrapy.readthedocs.org/en/latest/topics/downloader-middleware.html
 #DOWNLOADER_MIDDLEWARES = {
-#    'scrapy_doubantop250.middlewares.MyCustomDownloaderMiddleware': 543,
+#    'scrapy_doubanbook250.middlewares.MyCustomDownloaderMiddleware': 543,
 #}
 
 # Enable or disable extensions
@@ -67,7 +67,7 @@ ROBOTSTXT_OBEY = True
 # Configure item pipelines
 # See http://scrapy.readthedocs.org/en/latest/topics/item-pipeline.html
 ITEM_PIPELINES = {
-    'scrapy_doubantop250.pipelines.ScrapyDoubantop250Pipeline': 300,
+    'scrapy_doubanbook250.pipelines.ScrapyDoubanbook250Pipeline': 300,
 }
 
 # Enable and configure the AutoThrottle extension (disabled by default)
@@ -92,8 +92,9 @@ ITEM_PIPELINES = {
 #HTTPCACHE_STORAGE = 'scrapy.extensions.httpcache.FilesystemCacheStorage'
 
 # Configure mysql connect
-MYSQL_HOST = ''
-MYSQL_PORT =
-MYSQL_USER = ''
-MYSQL_PASSWORD =''
-MYSQL_DB = ''
+MYSQL_HOST = '121.42.26.251'
+MYSQL_PORT =3306
+MYSQL_USER = 'root'
+MYSQL_PASSWORD ='111111'
+MYSQL_DB = 'scrapy'
+
